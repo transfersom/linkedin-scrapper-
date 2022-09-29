@@ -48,11 +48,11 @@ app.get("/oauth/linkedin/callback", function (req, res) {
 
 app.get("/link", (req, res) => {
   const linkedin = Linkedin.init(
-    "AQVGOfRnGVMxI-9vyNkXhPyqURlwu8tjqINS9DsBJyi5sUYBaa92MVG99Ei6X6hvSdWNFr2pDlBKiesauzUReMdhcxioJ5NwxMEfgrjXSPU4EqRi6-7XwTwozOXJYOnNp8kWAbnHg9kMoiap3Cum2jD8yVQ6K5nOEWt5CuLEkVHZpV0d6mYTN57mdnxV-zs0ziBYGQnh-uWUU8ZX0FGa3hxOAN73ochZSaANlZuu6aO59ze89wA50VVbz39TqVQkcXaTwRNybIilyvZOENxEvJqh6laoLS23tKWNxk_7uBbFjDhBhLFUzgKPlRBucWS6EfKPoB8lYTxecu75jYpZj0RUAKjsqw"
+    "-------------token------------"
   );
 
   linkedin.people.url(
-    "https://www.linkedin.com/in/somnathdudhat",
+    "-----------linkedin profile------------",
     function (err, $in) {
       if (err) {
         console.log(err);
