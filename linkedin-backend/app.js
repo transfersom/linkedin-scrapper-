@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const Linkedin = require("node-linkedin")("7781i62dh4zy7u", "IHMqzpWTL5viELt2");
+const Linkedin = require("node-linkedin")("app-id", "secret");
 
 //middleware
 app.use(cors());
